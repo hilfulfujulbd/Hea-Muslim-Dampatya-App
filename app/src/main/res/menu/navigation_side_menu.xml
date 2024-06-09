@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_menu"
+            android:icon="@drawable/google_home_icon"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/about_writer"
+            android:icon="@drawable/baseline_drag_indicator_24"
+            android:title="লেখকের পরিচয়" />
+        <item
+            android:id="@+id/about_info"
+            android:icon="@drawable/baseline_info_24"
+            android:title="লেখকের কথা" />
+    </group>
+
+</menu>
